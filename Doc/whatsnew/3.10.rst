@@ -167,6 +167,12 @@ Add a :class:`~xml.sax.handler.LexicalHandler` class to the
 :mod:`xml.sax.handler` module.
 (Contributed by Jonathan Gossage and Zackery Spytz in :issue:`35018`.)
 
+inspect
+-------
+
+Add :func:`inspect.ismethodwrapper` for checking if the type of object is a
+:class:`~types.MethodWrapperType`. (Contributed by Hakan Çelik in :issue:`29418`.)
+
 
 Optimizations
 =============
